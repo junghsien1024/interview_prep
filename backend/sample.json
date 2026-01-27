@@ -1,0 +1,46 @@
+{
+  "interview_questions": [
+    {
+      "id": 1,
+      "question": "What is the difference between a list and a tuple in Python?",
+      "category": "Python",
+      "difficulty": "Easy",
+      "answer": "A list is mutable (can be modified), while a tuple is immutable (cannot be modified). Lists use square brackets [], tuples use parentheses ()."
+    },
+    {
+      "id": 2,
+      "question": "Explain the concept of closures in JavaScript.",
+      "category": "JavaScript",
+      "difficulty": "Medium",
+      "answer": "A closure is a function that has access to variables in its outer (enclosing) lexical scope, even after the outer function has returned."
+    },
+    {
+      "id": 3,
+      "question": "What is the time complexity of binary search?",
+      "category": "Algorithms",
+      "difficulty": "Easy",
+      "answer": "O(log n) - binary search divides the search space in half with each iteration."
+    },
+    {
+      "id": 4,
+      "question": "What is REST API?",
+      "category": "Web Development",
+      "difficulty": "Medium",
+      "answer": "REST (Representational State Transfer) is an architectural style for designing networked applications. REST APIs use HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources."
+    },
+    {
+      "id": 5,
+      "question": "Explain the difference between SQL and NoSQL databases.",
+      "category": "Database",
+      "difficulty": "Medium",
+      "answer": "SQL databases are relational, use structured schemas, and support ACID properties. NoSQL databases are non-relational, use flexible schemas, and are designed for horizontal scaling and handling unstructured data."
+    }
+  ],
+  "metadata": {
+    "total_questions": 5,
+    "categories": ["Python", "JavaScript", "Algorithms", "Web Development", "Database"],
+    "difficulty_levels": ["Easy", "Medium", "Hard"],
+    "created_at": "2024-01-01",
+    "version": "1.0"
+  }
+}
