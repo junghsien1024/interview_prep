@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import InputForm from './InputForm'
 import './App.css'
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           Refresh Connection
         </button>
       </header>
+      <InputForm />
     </div>
   )
 }
